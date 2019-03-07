@@ -1,0 +1,26 @@
+div.segmented .cell:hover {
+    border-color: #09a4ff;
+    box-shadow: inset 0px 0px 2px 2px #AAA !important;
+}
+
+.thumb:hover {
+    border-color:#09a4ff !important;
+}
+.thumb{cursor:grab}
+.thumb:active,.thomb:focus {
+    cursor: grabbing !important;
+}
+.track{cursor:pointer}
+div.segmented .cell{color:#ffff;cursor:pointer !important}
+td{cursor:pointer !important}
+tr:hover, td.button{box-shadow: 2px 2px 2px 2px #AAA}
+tr:hover {background-color:rgba(255, 114, 0, 0.51) !important}
+.hdr td:hover{box-shadow: inset 2px 2px 2px 2px #AAA}
+td.column1:hover{color:#0e0e8e;}
+td.column2:hover{color:#ac0b0b;}
+td.column3:hover{color:rgba(255,128,64,1.00);}
+td.column4:hover{color:green;}
+.stlButton{cursor:pointer}
+.stlButton:hover{background:linear-gradient(to bottom, rgba(44, 186, 255, 1) 0%, rgba(18, 126, 242, 1) 100%) !important}
+.unselectable.toolbar tr{background:linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(204,204,204,1) 100%) !important}
+.unselectable.toolbar td:not(.button){box-shadow:none !important;cursor:default !important}
