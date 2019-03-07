@@ -1,0 +1,20 @@
+div.segmented .cell:hover {
+    border-color: #09a4ff;
+    box-shadow: inset 0px 0px 2px 2px #AAA !important;
+}
+
+.thumb:hover {
+    border-color:#09a4ff !important;
+}
+.thumb{cursor:grab}
+.thumb:active,.thomb:focus {
+    cursor: grabbing !important;
+}
+.track{cursor:pointer}
+div.segmented .cell{color:#ffff;cursor:pointer !important}
+div.segmented.cell{cursor:pointer !important} 
+
+td.column1:hover{color:blue;}
+td.column2:hover{color:red;}
+td.column3:hover{color:coral;}
+td.column4:hover{color:green;}
