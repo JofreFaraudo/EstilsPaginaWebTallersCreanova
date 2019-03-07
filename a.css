@@ -1,0 +1,36 @@
+div.segmented .cell:hover {
+    border-color: #09a4ff;
+    box-shadow: inset 0px 0px 4px 2px rgb(44, 226, 255)!important;
+}
+div.increase:hover,div.decrease:hover{background-color:#ddd}
+.thumb:hover {
+    border-color:#09a4ff !important;
+}
+.thumb{cursor:grab}
+.thumb:active,.thomb:focus {
+    cursor: grabbing !important;
+}
+*{transition: all ease 0.5s}
+.track,input,.stlButton,td:not(._DefaultStyle),div.segmented .cell,select,div.increase,div.decrease{cursor:pointer !important}
+div.segmented .cell{color:#ffff}
+tr:hover, td.button{box-shadow: 2px 2px 2px 2px #AAA}
+table:not(.headers) tr:hover {background-color:#3da0e3 !important}
+.hdr td:hover{box-shadow: inset 2px 2px 2px 2px #AAA}
+td.column1:hover{color:rgb(255, 255, 255);}
+td.column2:hover{color:rgb(255, 255, 255);}
+td.column3:hover{color:rgb(255, 255, 255);}
+td.column4:hover{color:rgb(255, 255, 255);}
+select:hover,select:focus,select:active{background-color:#EEE;border: 1px #000 solid}
+input[type="text"]:focus,input[type="password"]:focus,input:not([type]):focus,input[type="url"]:focus,input[type="email"]:focus,input[type="day"]:focus,input[type="search"]:focus,input[type="number"]:focus,input[type="text"]:active,input[type="password"]:active,input:not([type]):active,input[type="url"]:active,input[type="email"]:active,input[type="day"]:active,input[type="search"]:active,input[type="number"]:active{cursor:text !important;background-color:#EEE}
+.stlButton{background:linear-gradient(to bottom, rgba(44, 186, 255, 1) 0%, rgba(18, 126, 242, 1) 100%) !important}
+.stlButton:hover{background:linear-gradient(to bottom, rgb(33, 151, 208) 0%, rgba(18, 126, 242, 1) 100%) !important}
+.unselectable.toolbar tr{background:linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(204,204,204,1) 100%) !important}
+.unselectable.toolbar td:not(.button){box-shadow:none !important;cursor:default !important}
+input[type="text"]:hover,input[type="password"]:hover,input:not([type]):hover,input[type="url"]:hover,input[type="email"]:hover,input[type="day"]:hover,input[type="search"]:hover,input[type="number"]:hover{border-color: rgb(44, 226, 255 !important;}
+.stlOrangeBackgroundBlackText {
+    font-family: "Ubuntu Condensed", sans-serif !important;
+    font-size: 2em !important;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0.00) !important;
+    -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0.00) !important;
+    background-color: rgb(44, 226, 255) !important;
+    background-image: none !important;
