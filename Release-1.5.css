@@ -10,7 +10,7 @@ div.increase:hover,div.decrease:hover{background-color:#ddd}
 .thumb:active,.thomb:focus {
     cursor: grabbing !important;
 }
-*{transition: all ease 0.5s}
+*:not(div.gridbox.gridbox_dhx_web.isModern){transition: all ease 0.5s}
 .track,input,.stlButton,td:not(._DefaultStyle),div.segmented .cell,select,div.increase,div.decrease{cursor:pointer !important}
 div.segmented .cell{color:#ffff}
 tr:hover, td.button{box-shadow: 2px 2px 2px 2px #AAA}
