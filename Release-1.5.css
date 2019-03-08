@@ -21,7 +21,7 @@ td.column2:hover{color:#ac0b0b;}
 td.column3:hover{color:rgba(255,128,64,1.00);}
 td.column4:hover{color:green;}
 select:hover,select:focus,select:active{background-color:#EEE;border: 1px #000 solid}
-input[type="text"]:focus,input[type="password"]:focus,input:not([type]):focus,input[type="url"]:focus,input[type="email"]:focus,input[type="day"]:focus,input[type="search"]:focus,input[type="number"]:focus,input[type="text"]:active,input[type="password"]:active,input:not([type]):active,input[type="url"]:active,input[type="email"]:active,input[type="day"]:active,input[type="search"]:active,input[type="number"]:active{cursor:text !important;background-color:#EEE}
+input[type="text"]:focus,input[type="password"]:focus,input:not([type]):focus,input[type="url"]:focus,input[type="email"]:focus,input[type="day"]:focus,input[type="search"]:focus,input[type="number"]:focus,input[type="text"]:active,input[type="password"]:active,input:not([type]):active,input[type="url"]:active,input[type="email"]:active,input[type="day"]:active,input[type="search"]:active,input[type="number"]:active{cursor:text !important;outline: 0;background-color:#EEE}
 .stlButton:hover{background:linear-gradient(to bottom, rgba(44, 186, 255, 1) 0%, rgba(18, 126, 242, 1) 100%) !important}
 .unselectable.toolbar tr{background:linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(204,204,204,1) 100%) !important}
 .unselectable.toolbar td:not(.button){box-shadow:none !important;cursor:default !important}
