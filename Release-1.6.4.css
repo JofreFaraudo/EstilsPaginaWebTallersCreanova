@@ -11,7 +11,7 @@ div.increase:hover,div.decrease:hover{background-color:#ddd}
     cursor: grabbing !important;
 }
 *:not(div.gridbox.gridbox_dhx_web.isModern){transition: all ease 0.5s}
-.track,input,.stlButton,td:not(._DefaultStyle),div.segmented .cell,select,div.increase,img[src="http://alumnes.collegicreanova.org/_files/8897-4993-3634-5620-9738/cancelWhite.png"],div.decrease{cursor:pointer !important}
+.track,input,.stlButton,td:not(._DefaultStyle),div.segmented .cell,select,div.increase,img[src$="ok.png"],img[src$="cancelWhite.png"],div.decrease{cursor:pointer !important}
 div.segmented .cell{color:#ffff}
 tr:hover, td.button:hover{box-shadow: 2px 2px 2px 2px #AAA}
 table:not(.headers) tr:hover {background-color:rgba(255, 114, 0, 0.51) !important}
@@ -30,4 +30,4 @@ input[type="text"]:focus,input[type="password"]:focus,input:not([type]):focus,in
 input[type="text"]:hover,input[type="password"]:hover,input:not([type]):hover,input[type="url"]:hover,input[type="email"]:hover,input[type="day"]:hover,input[type="search"]:hover,input[type="number"]:hover{border-color:rgba(255,128,64,1.00)}
 .modal{cursor:default}
 div.segmented .cell:focus,div.segmented .cell:focus:active,div.segmented .cell:active{background-color:#09a4ff !important}
-img[src="http://alumnes.collegicreanova.org/_files/8897-4993-3634-5620-9738/cancelWhite.png"]:hover,img[src="http://alumnes.collegicreanova.org/_files/2691-2751-0536-5330-5447/ok.png"]:hover{background-color:rgba(120, 120, 120, 1)}
+img[src$="cancelWhite.png"]:hover,img[src$="ok.png"]:hover{background-color:rgba(120, 120, 120, 1)}
