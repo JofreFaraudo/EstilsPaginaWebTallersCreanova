@@ -12,7 +12,7 @@ div.increase:hover,div.decrease:hover{background-color:#ddd}
 }
 .XojoErrorButton:hover{text-shadow:none !important;color:#09a4ff!important}
 *{transition: all ease 0.5s;}
-div.gridbox.gridbox_dhx_web.isModern,.scrollbar *{transition:none;}
+div.gridbox.gridbox_dhx_web.isModern,.scrollbar *,.spinner.black.large{transition:none;}
 textarea:not([readonly]),.track,input,.stlButton,td:not(._DefaultStyle),div.segmented .cell,select,div.increase,img[src$="ok.png"],img[src$="cancelWhite.png"],div.decrease{cursor:pointer !important}
 div.segmented .cell{color:#ffff}
 tr:hover, td.button:hover{box-shadow: 2px 2px 2px 2px #AAA}
